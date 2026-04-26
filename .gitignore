@@ -1,0 +1,48 @@
+# =========================
+# ROOT LEVEL
+# =========================
+node_modules/
+
+*.log
+.DS_Store
+Thumbs.db
+
+# =========================
+# FRONTEND (Vite/React)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite/
+frontend/coverage/
+
+# =========================
+# BACKEND (Node/Express)
+# =========================
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/tmp/
+backend/uploads/
+
+# =========================
+# BUILD / CACHE
+# =========================
+dist/
+build/
+.cache/
+coverage/
+
+# =========================
+# EDITOR / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
