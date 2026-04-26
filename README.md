@@ -1,6 +1,6 @@
 # Linkio – AI-Powered Hyperlocal Service Marketplace
 
-> Connecting customers with nearby skilled workers in real time, powered by AI.
+>An AI-powered platform that seamlessly connects customers with trusted local service workers in real time.
 
 ---
 
@@ -91,6 +91,28 @@ This supply-demand disconnect reduces economic efficiency and leaves both sides 
    ```
 
 ---
+5. 🖥️ BACKEND SETUP
+cd backend
+npm install
+📄 Create .env in backend/
+PORT=5000
+ALLOWED_ORIGIN=http://localhost:5173
+
+# Firebase Admin
+FIREBASE_PROJECT_ID=
+FIREBASE_CLIENT_EMAIL=
+FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
+
+# AI (Gemini)
+GEMINI_API_KEY=
+
+# Razorpay
+RAZORPAY_KEY_ID=
+RAZORPAY_KEY_SECRET=
+▶️ Run Backend
+node server.js
+
+Server runs on: http://localhost:5000
 
 ## 🌟 What Makes Linkio Unique
 
