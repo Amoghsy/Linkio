@@ -148,3 +148,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 📬 Contact
 
 For queries or collaboration, feel free to reach out via the Issues tab or open a discussion in this repository.
+
+---
+## 📬 Contributors
+Amogh SY, A Jatin Ram Chowdary,Arvadiya Om Dinesh and Apeksh A
